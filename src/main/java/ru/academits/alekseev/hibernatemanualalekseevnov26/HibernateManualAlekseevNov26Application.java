@@ -27,7 +27,7 @@ public class HibernateManualAlekseevNov26Application implements CommandLineRunne
 
     @Override
     @Transactional
-    public void run(String @NonNull ...args) {
+    public void run(String @NonNull ... args) {
         System.out.println("Starting HibernateManualAlekseevNov26Application");
 
         Category food = new Category("Food");
